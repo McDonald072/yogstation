@@ -1,7 +1,7 @@
 /datum/map_template/ruin/space
 	prefix = "_maps/RandomRuins/SpaceRuins/"
 	cost = 1
-
+/*
 /datum/map_template/ruin/space/zoo
 	id = "zoo"
 	suffix = "abandonedzoo.dmm"
@@ -30,7 +30,7 @@
 	description = "This asteroid floating in space has no official \
 		designation, because the scientist that discovered it deemed it \
 		'super dull'."
-
+*/
 /datum/map_template/ruin/space/asteroid4
 	id = "asteroid4"
 	suffix = "asteroid4.dmm"
@@ -65,7 +65,7 @@
 				M.existing_shuttle = SSshuttle.getShuttle(S.port_id)
 				addtimer(M, "action_load", 1, TIMER_UNIQUE, S)//we have to wait until the world is initialized to avoid runtimes
 				break
-
+/*
 /datum/map_template/ruin/space/deep_storage
 	id = "deep-storage"
 	suffix = "deepstorage.dmm"
@@ -194,3 +194,4 @@
 	suffix = "hippie_shuttle"
 	name= "Hippie Shuttle"
 	description = "These hippies went a little too far out..."
+*/
